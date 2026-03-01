@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch (.net-playground)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/.net-playground/bin/Debug/net10.0/.net-playground.dll",
+      "cwd": "${workspaceFolder}/.net-playground",
+      "preLaunchTask": "build",
+      "console": "integratedTerminal"
+    }
+  ]
+}
